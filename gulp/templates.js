@@ -4,7 +4,7 @@ var pug = require('gulp-pug');
 var runseq = require('run-sequence');
 
 gulp.task('templates', function buildHTML() {
-    return gulp.src(config.src.templates + '**/*.pug')
+    return gulp.src(config.src.templates + '*.pug')
     .pipe(
         pug({
             pretty: true

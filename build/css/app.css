@@ -45,7 +45,7 @@ nav a {
 }
 .main .container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
 }
 .card {
   background: #000;

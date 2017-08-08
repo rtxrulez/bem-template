@@ -6,9 +6,11 @@ gulp.task('default', function() {
         'copy',
         'templates',
         'styles',
+        'scripts',
         'server',
         'copy:watch',
         'templates:watch',
-        'styles:watch'
+        'styles:watch',
+        'scripts:watch'
     );
 });
