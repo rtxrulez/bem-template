@@ -1,0 +1,39 @@
+.list {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #800080;
+  height: 40px;
+}
+.list__item_form {
+  border: 1px solid #008000;
+}
+.list__item+.list__item {
+  border-top: 0;
+}
+.list__check {
+  width: 40px;
+}
+.list__checkbox {
+  display: block;
+  margin: auto;
+}
+.list__input {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+}
+.list__btn {
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=todo.css.map */
