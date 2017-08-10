@@ -57,5 +57,18 @@ nav a {
   height: 10em;
   overflow: hidden;
 }
+.news > div {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+.news__picture {
+  margin-right: 20px;
+  height: 200px;
+  float: left;
+}
+.none {
+  display: none;
+}
 
 /*# sourceMappingURL=app.css.map */

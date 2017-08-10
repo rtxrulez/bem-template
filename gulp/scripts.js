@@ -6,5 +6,5 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('scripts:watch', function() {
-    gulp.watch('src/js/**/*', ['scripts']);
+    gulp.watch('src/js/*.*', ['scripts']);
 });
